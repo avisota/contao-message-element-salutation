@@ -17,7 +17,7 @@
 /**
  * Module
  */
-$GLOBALS['TL_LANG']['MOD']['avisota-message-element-text'] = array(
-    'Avisota - Message element "Text"',
-    '"Text" message element for Avisota messages.'
+$GLOBALS['TL_LANG']['MOD']['avisota-message-element-salutation'] = array(
+    'Avisota - Message element "Salutation"',
+    '"Salutation" message element for Avisota messages.'
 );

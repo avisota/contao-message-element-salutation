@@ -17,4 +17,4 @@
 /**
  * Mailing content elements
  */
-$GLOBALS['TL_LANG']['MCE']['text'] = array('Text', 'Generates a rich text element.');
+$GLOBALS['TL_LANG']['MCE']['salutation'] = array('Salutation', 'Display the salutation as single element.');
