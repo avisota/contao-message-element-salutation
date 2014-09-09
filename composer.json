@@ -46,7 +46,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-0": {
-            "Avisota\\Contao\\Message\\Element\\Text": "src/"
+            "Avisota\\Contao\\Message\\Element\\Salutation": "src/"
         }
     },
     "extra": {
