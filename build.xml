@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project name="composer client" default="test">
+    <target name="phpunit">
+        <exec dir="${basedir}" executable="vendor/bin/phpunit" failonerror="false"/>
+    </target>
+
+    <target name="phpcs">
+        <exec dir="${basedir}" executable="vendor/bin/phpcs" failonerror="true">
+            <arg line="--standard=PSR1,PSR2 ${basedir}/src"/>
+            <!--
+            These language files are generated, we ignore them.
+            -->
+            <arg line="--ignore=src/system/modules/!composer/languages/de/*"/>
+        </exec>
+    </target>
+
+    <target name="phpmd">
+        <exec dir="${basedir}" executable="vendor/bin/phpmd" failonerror="true">
+            <arg line="${basedir}/src text naming,unusedcode --suffixes php"/>
+        </exec>
+    </target>
+
+    <target name="branch-alias">
+        <exec dir="${basedir}" executable="vendor/bin/validate-branch-alias.php" failonerror="true"/>
+    </target>
+
+    <target name="composer-validate">
+        <exec dir="${basedir}" executable="composer" failonerror="true">
+            <arg value="validate"/>
+        </exec>
+    </target>
+
+    <target name="test" depends="phpcs,phpmd,branch-alias,composer-validate"/>
+</project>
