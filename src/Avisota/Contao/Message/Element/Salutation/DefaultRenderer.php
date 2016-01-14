@@ -13,7 +13,6 @@
  * @filesource
  */
 
-
 namespace Avisota\Contao\Message\Element\Salutation;
 
 use Avisota\Contao\Core\Message\Renderer;

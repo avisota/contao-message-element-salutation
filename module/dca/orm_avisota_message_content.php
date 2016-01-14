@@ -13,7 +13,6 @@
  * @filesource
  */
 
-
 /**
  * Table orm_avisota_message_content
  * Entity Avisota\Contao:MessageContent
