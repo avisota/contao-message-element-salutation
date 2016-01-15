@@ -9,8 +9,7 @@
          processIsolation="false"
          stopOnFailure="false"
          syntaxCheck="false"
-         bootstrap="tests/bootstrap.php"
-        >
+         bootstrap="tests/bootstrap.php">
     <testsuites>
         <testsuite name="avisota/contao-message-element-salutation Test Suite">
             <directory suffix="Test.php">./tests/</directory>
