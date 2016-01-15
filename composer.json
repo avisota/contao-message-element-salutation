@@ -52,12 +52,12 @@
     "extra": {
         "contao": {
             "sources": {
-                "module": "system/modules/avisota-message-element-salutation"
+                "contao": "system/modules/avisota-message-element-salutation"
             },
             "transifex": {
                 "project": "avisota-contao",
                 "prefix": "contao-message-element-salutation-",
-                "languages_cto": "module/languages",
+                "languages_cto": "contao/languages",
                 "languages_tx": ".tx"
             }
         },
