@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="php" date="2014-05-06T04:02:00+02:00" original="modules" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="MOD.avisota-message-element-salutation.0">
+        <source>Avisota - Message element Salutation</source>
+        <target>Avisota - Nachrichtenelement Anrede</target>
+
+      </trans-unit>
+
+      <trans-unit id="MOD.avisota-message-element-salutation.1">
+        <source>Salutation message element for Avisota messages.</source>
+        <target>Anrede-Nachrichtenelement für Avisota Nachrichten.</target>
+
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

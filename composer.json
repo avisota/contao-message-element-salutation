@@ -46,19 +46,13 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Avisota\\Contao\\Message\\Element\\Salutation": "src/"
+            "Avisota\\Contao\\Message\\Element\\Salutation\\": "src/"
         }
     },
     "extra": {
         "contao": {
             "sources": {
                 "contao": "system/modules/avisota-message-element-salutation"
-            },
-            "transifex": {
-                "project": "avisota-contao",
-                "prefix": "contao-message-element-salutation-",
-                "languages_cto": "contao/languages",
-                "languages_tx": ".tx"
             }
         },
         "branch-alias": {
