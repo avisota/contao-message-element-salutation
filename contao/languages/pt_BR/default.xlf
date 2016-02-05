@@ -3,6 +3,7 @@
     <body>
       <trans-unit id="MCE.salutation.0">
         <source>Salutation</source>
+        <target>Saudação</target>
 
       </trans-unit>
       <trans-unit id="MCE.salutation.1">

@@ -3,6 +3,7 @@
     <body>
       <trans-unit id="MOD.avisota-message-element-salutation.0">
         <source>Avisota - Message element Salutation</source>
+        <target>Avisota - Elemento de mensagem saudação</target>
 
       </trans-unit>
 
