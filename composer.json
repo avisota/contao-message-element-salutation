@@ -28,10 +28,10 @@
         "source": "https://github.com/avisota/contao-message-element-salutation"
     },
     "require": {
-        "php": ">=5.3",
-        "contao-community-alliance/composer-plugin": "~2.3",
+        "php": ">=5.4",
+        "contao-community-alliance/composer-plugin": "~2.4",
         "avisota/contao-message": "3.0.x-dev",
-        "contao/core": ">=2.11.11,<3.6"
+        "contao/core": ">=3.5,<3.6"
     },
     "require-dev": {
         "phpcq/all-tasks": "~1.1"
