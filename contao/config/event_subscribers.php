@@ -13,7 +13,8 @@
  * @filesource
  */
 
-/**
- * Message elements
- */
-$GLOBALS['TL_MCE']['texts'][] = 'salutation';
+use Avisota\Contao\Message\Element\Salutation\DefaultRenderer;
+
+return array(
+    new DefaultRenderer()
+);
