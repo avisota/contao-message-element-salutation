@@ -53,7 +53,8 @@ class DefaultRenderer implements EventSubscriberInterface
     {
         return array(
             AvisotaMessageEvents::RENDER_MESSAGE_CONTENT => array(
-                array('renderContent'),),
+                array('renderContent'),
+            ),
         );
     }
 
