@@ -15,10 +15,8 @@
 
 namespace Avisota\Contao\Message\Element\Salutation;
 
-use Avisota\Contao\Core\Message\Renderer;
 use Avisota\Contao\Message\Core\Event\AvisotaMessageEvents;
 use Avisota\Contao\Message\Core\Event\RenderMessageContentEvent;
-use Contao\Doctrine\ORM\Entity;
 use Contao\Doctrine\ORM\EntityAccessor;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
@@ -53,7 +51,8 @@ class DefaultRenderer implements EventSubscriberInterface
     {
         return array(
             AvisotaMessageEvents::RENDER_MESSAGE_CONTENT => array(
-                array('renderContent'),),
+                array('renderContent'),
+            ),
         );
     }
 
